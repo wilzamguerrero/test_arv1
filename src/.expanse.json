@@ -1,0 +1,191 @@
+{
+  "entrySpaceId": "fa172a18-5178-4dd7-b375-aa5ff604ccaa",
+  "objects": {
+    "63fae51f-70b8-41d9-a328-ffabe6245d7c": {
+      "components": {},
+      "geometry": null,
+      "id": "63fae51f-70b8-41d9-a328-ffabe6245d7c",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "fa172a18-5178-4dd7-b375-aa5ff604ccaa",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "79adadf1-ccf7-479a-b07c-997201b53551": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "79adadf1-ccf7-479a-b07c-997201b53551",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "fa172a18-5178-4dd7-b375-aa5ff604ccaa",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "89bc3754-523d-4962-b95e-fff8f5c65aea": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "id": "89bc3754-523d-4962-b95e-fff8f5c65aea",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/ROTOCOPIA_video.mp4"
+        },
+        "inreMaterial": "ROTOCOPIA_video"
+      },
+      "name": "Esfera",
+      "order": 1.5261436171735525,
+      "parentId": "ce740486-004d-49b6-a3d3-88797e966271",
+      "position": [
+        -0.023,
+        0,
+        0.5
+      ],
+      "rotation": [
+        0.4375753629091166,
+        -0.5554527898705299,
+        -0.5554527898705297,
+        0.4375753629091166
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "99747d49-b68e-448e-9a75-0598b75bc407": {
+      "components": {},
+      "geometry": null,
+      "id": "99747d49-b68e-448e-9a75-0598b75bc407",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "fa172a18-5178-4dd7-b375-aa5ff604ccaa",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ce740486-004d-49b6-a3d3-88797e966271": {
+      "components": {},
+      "geometry": null,
+      "id": "ce740486-004d-49b6-a3d3-88797e966271",
+      "imageTarget": {
+        "name": "images"
+      },
+      "material": null,
+      "name": "Marcador · images",
+      "order": 4.5,
+      "parentId": "fa172a18-5178-4dd7-b375-aa5ff604ccaa",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "fa172a18-5178-4dd7-b375-aa5ff604ccaa": {
+      "activeCamera": "79adadf1-ccf7-479a-b07c-997201b53551",
+      "id": "fa172a18-5178-4dd7-b375-aa5ff604ccaa",
+      "name": "Espacio principal"
+    }
+  }
+}
